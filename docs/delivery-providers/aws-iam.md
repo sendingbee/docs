@@ -27,7 +27,7 @@ policy with the following:
         {
             "Effect": "Allow",
             "Action": [
-                "ses:*",
+                "ses:*"
             ],
             "Resource": "*"
         },
