@@ -9,9 +9,8 @@ tens of thousands of businesses around the world.
 To use AWS SES, you need to have an AWS account. If you don't already have an
 account, you need to [create one](https://portal.aws.amazon.com/billing/signup).
 If you're already familiar with AWS SES and have it set-up to send emails, you
-can skip the rest of the page and continue to [AWS
-IAM](/delivery-providers/aws-iam).
-
+can skip to the end of the page. Just make sure that your [Email Feedback
+Forwarding](#email-feedback-forwarding) is disabled.
 
 #### Region
 
@@ -105,6 +104,19 @@ hours, please contact us at [support@sendingbee.com](mailto:support@sendingbee.c
 <p class="centered">
   ![delivery-providers-ses6](../_assets/images/delivery-providers-ses6.png)
 </p>
+
+#### Email Feedback Forwarding
+
+By default, you get notifications about any bounced or rejected email to your
+inbox. SendingBee however handles this for you and there's no need for you to
+get notified about these events if you don't want to. To disable it, click on
+your domain, click "Notifications" and then "Edit Configuration". In the dialog,
+select "Disabled" at the very bottom and click "Save Config".
+
+<p class="centered">
+  ![delivery-providers-ses10](../_assets/images/delivery-providers-ses10.png ':size=400')
+</p>
+
 
 #### Sandbox
 
