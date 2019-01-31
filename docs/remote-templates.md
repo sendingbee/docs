@@ -34,11 +34,9 @@ UTF-8 encoded JSON format:
   templates: [
     {
       name: "Template #1",
-      html: "...",
-      text: "..."
-    },
-
-    // ...
+      html: "<strong>This is an example.</strong>",
+      text: "This is an example."
+    }
   ]
 }
 ```
