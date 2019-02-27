@@ -58,7 +58,7 @@ structure:
   "custom_fields": {
     "email": "jiri@sensible.io",
     "first_name": "Jiri",
-    "last_name": "Pospisil",
+    "last_name": "Pospisil"
   },
   "link_url": "https://example.com",
   "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) ..."
@@ -83,7 +83,7 @@ The endpoint must return the following JSON as a response for every request
 
 ```json
 {
-  "hello": "sendingbee",
+  "hello": "sendingbee"
 }
 ```
 

@@ -132,7 +132,7 @@ POST https://api.sendingbee.com/v1/campaigns
     "template": {
       "subject": "Welcome",
       "html": "...",
-      "text": "...",
+      "text": "..."
     },
     "query": [
       {
@@ -143,7 +143,7 @@ POST https://api.sendingbee.com/v1/campaigns
     ],
     "send_at": "2018-09-30T09:50:00Z",
     "continuous": true,
-    "continuous_interval": 120,
+    "continuous_interval": 120
   }
 }
 ```
@@ -231,9 +231,9 @@ The HTTP status will be 201 on success, 4xx otherwise.
 
     "links": {
       "self": "/v1/campaigns/5bc5af8f5458bdff93df91fe",
-      "project": "/v1/projects/5b965da2379be47dfe4e7e2b",
-    },
-  },
+      "project": "/v1/projects/5b965da2379be47dfe4e7e2b"
+    }
+  }
 }
 ```
 

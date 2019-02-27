@@ -8,6 +8,7 @@ following endpoints are available:
 * [Add to lists](#add-to-lists)
 * [Delete by ID](#delete-by-id)
 * [Delete by email](#delete-by-email)
+* [Delete by query](#delete-by-query)
 
 ### Get details by ID
 
@@ -39,9 +40,9 @@ GET https://api.sendingbee.com/v1/contacts/<id>
     "gravatar_url": "https://...",
 
     "links": {
-      "self": "/v1/contacts/5bbdc22133a6d55c84c8392b",
-    },
-  },
+      "self": "/v1/contacts/5bbdc22133a6d55c84c8392b"
+    }
+  }
 }
 ```
 
@@ -253,7 +254,7 @@ given project.
 **Request**
 
 ```
-DELETE https://api.sendingbee.com/v1/contacts
+DELETE https://api.sendingbee.com/v1/contacts/email
 ```
 
 ```json
@@ -270,3 +271,23 @@ DELETE https://api.sendingbee.com/v1/contacts
 **Response**
 
 The HTTP status will be 204 on success, 4xx otherwise. There will be no body returned.
+
+### Delete by query
+
+?> The token needs to have the **MANAGE_CONTACTS** permission to perform this
+action. More details at [Authentication and
+Authorization](/api#authentication-and-authorization).
+
+The endpoint will delete a contact based on a
+[query](/api/contacts/query-language.md). The query needs to be stringified and
+encodeURIComponent encoded.
+
+**Request**
+
+```
+DELETE https://api.sendingbee.com/v1/contact?project=<project_id>&query=<query>
+```
+
+**Response**
+
+The HTTP status will be 200 on success, 4xx otherwise.

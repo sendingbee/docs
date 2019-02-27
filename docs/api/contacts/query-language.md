@@ -178,13 +178,13 @@ lists/segments using the [Lists and segment](/api/lists) APIs.
   {
     "field": "$any(lists).id",
     "operator": "=",
-    "value": "<list_id>",
-  }
+    "value": "<list_id>"
+  },
 
   {
     "field": "$any(segments).id",
     "operator": "=",
-    "value": "<segment_id>",
+    "value": "<segment_id>"
   }
 ]
 ```
@@ -259,7 +259,7 @@ Contacts who have clicked ANY link in the past 7 days:
   {
     "field": "$find(campaigns, '<campaign_id>').$any(links).clicked_at",
     "operator": ">",
-    "value": "now-7d",
+    "value": "now-7d"
   }
 ]
 ```
@@ -311,19 +311,19 @@ You can find more information about the states in the
   {
     "field": "$meta.id",
     "operator": "=",
-    "value": "<contact_id>",
+    "value": "<contact_id>"
   },
 
   {
     "field": "$meta.id",
     "operator": "!=",
-    "value": "<contact_id2>",
+    "value": "<contact_id2>"
   },
 
   {
     "field": "$meta.active",
     "operator": "=",
-    "value": true,
+    "value": true
   }
 ]
 ```

@@ -28,7 +28,7 @@ GET https://api.sendingbee.com/v1/lists/<id>
     "segments": [
       "5bc9bfd47a9a353823c5d041"
     ],
-    "count": 73450,
+    "count": 73450
   },
   "segments": [
     {
@@ -45,7 +45,7 @@ GET https://api.sendingbee.com/v1/lists/<id>
           ]
         }
       ],
-      "count": 18212,
+      "count": 18212
     }
   ]
 }
