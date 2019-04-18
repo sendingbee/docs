@@ -65,6 +65,14 @@ string instead of a custom field for illustrative purposes).
   <tbody>
     <tr>
       <td>
+        Hello {{ "" | **default: "world" ** }}
+      </td>
+      <td>
+        Hello world
+      </td>
+    </tr>
+    <tr>
+      <td>
         {{ "hello world" | **upcase** }}
       </td>
       <td>
@@ -105,10 +113,18 @@ string instead of a custom field for illustrative purposes).
     </tr>
     <tr>
       <td>
-        {{ "Hello\nWorld" | **newline_to_br** }}
+        {{ "Hello\nworld" | **newline_to_br** }}
       </td>
       <td>
-        Hello &lt;br /&gt;World
+        Hello &lt;br /&gt;world
+      </td>
+    </tr>
+    <tr>
+      <td>
+        {{ "&lt;strong&gt;Hello world&lt;/strong&gt;" | **unescape** }}
+      </td>
+      <td>
+        <strong>Hello world</strong>
       </td>
     </tr>
   </tbody>
@@ -183,3 +199,5 @@ The following are all valid conditions:
     </tr>
   </tbody>
 </table>
+
+Continue to [Meta variables](/templates/meta-variables.md).

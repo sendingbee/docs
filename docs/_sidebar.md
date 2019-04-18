@@ -14,7 +14,7 @@
   * [6. Templates](/templates.md)
     * [6.1 Basic concepts](/templates/basic-concepts.md)
     * [6.2 Custom fields](/templates/custom-fields.md)
-    * [6.3 Variables](/templates/variables.md)
+    * [6.3 Meta variables](/templates/meta-variables.md)
     * [6.4 Import](/templates/import.md)
   * [7. Remote templates](/remote-templates.md)
   * [8. Signup forms](/signup-forms.md)
