@@ -1,5 +1,5 @@
 ?> If you have any questions or encounter any problems during the setup
-process, do not hesitate to contact us at
+process, please do not hesitate to contact us at
 [support@sendingbee.com](mailto:support@sendingbee.com). We are here to help.
 
 SendingBee integrates with [Amazon Simple Email Service (AWS

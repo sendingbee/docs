@@ -13,11 +13,11 @@ performance.
 
 #### Continuous campaigns
 
-A campaign can also be **continuous**. A continuous campaign is very similar
-to a regular campaign but the campaign gets sent repeatedly until canceled.
-Every recipient will still receive the email only once but because it's sent
-repeatedly, it's automatically send to new matching contacts as they are
-added. You can use this to e.g. welcome new contacts to your newsletter.
+A campaign can also be **continuous**. A continuous campaign is very similar to
+a regular campaign but the campaign gets sent repeatedly every hour until
+canceled. Every recipient will still receive the email only once but because
+it's sent repeatedly, it's automatically sent to newly matching contacts as they
+are added. You can use this to e.g. welcome new contacts to your newsletter.
 
 <p class="centered">
   ![campaigns3](../_assets/images/campaigns3.png ':size=400')

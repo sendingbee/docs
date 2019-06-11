@@ -111,7 +111,7 @@ action. More details at [Authentication and
 Authorization](/api#authentication-and-authorization).
 
 The endpoint allows to create new campaigns. In this case, we're creating a
-[continuous campaign](/campaigns#continuous-campaigns) (sent every 2 hours)
+[continuous campaign](/campaigns#continuous-campaigns) (sent every hour)
 to all members of list with ID "5b97e9beae72949465b1f339". The first emails
 will be sent on 2018-09-30 at 09:50:00 UTC.
 
@@ -142,8 +142,7 @@ POST https://api.sendingbee.com/v1/campaigns
       }
     ],
     "send_at": "2018-09-30T09:50:00Z",
-    "continuous": true,
-    "continuous_interval": 120
+    "continuous": true
   }
 }
 ```
@@ -159,66 +158,6 @@ sent. You can omit this property to send immediatelly.
 - The **continuous** property specified whether this is a [continuous
 campaign](/campaigns#continuous-campaign). You can omit this property
 (defaults to false).
-- The **continuous_interval** specifies how often the continuous campaign
-should be sent. The valid intervals are specified in minutes as follows:
-
-<table>
-  <thead>
-    <th>
-      Interval
-    </th>
-    <th>
-      Minutes
-    </th>
-  </thead>
-
-  <tbody>
-    <tr>
-      <td>
-        Every 15 minutes
-      </td>
-      <td>
-        15
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        Every hour
-      </td>
-      <td>
-        60
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        Every 2 hours
-      </td>
-      <td>
-        120
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        Every 6 hours
-      </td>
-      <td>
-        360
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        Every 24 hours
-      </td>
-      <td>
-        1440
-      </td>
-    </tr>
-  </tbody>
-</table>
 
 **Response**
 

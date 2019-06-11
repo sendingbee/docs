@@ -1,10 +1,10 @@
 The lists API allows you to get details about lists. The following endpoints
 are available:
 
-* [Get details](#get-details)
+* [Get details by ID](#get-details-by-id)
 * [Get all](#get-all)
 
-### Get details
+### Get details by ID
 
 ?> The token needs to have the **MANAGE_CONTACTS** permission to perform this
 action. More details at [Authentication and
@@ -72,5 +72,5 @@ Returns details about all campaigns within the project.
 GET https://api.sendingbee.com/v1/lists?project=<project_id>
 ```
 
-The response will be an array of the same structure as in the [Get details
-byID](#get-details-by-id) case.
+The response will be an array with elements with the same structure as in the [Get
+details by ID](#get-details-by-id) case.

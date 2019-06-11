@@ -16,8 +16,8 @@ environment with only the necessary permissions.
   ![remote templates](../_assets/images/api.png ':size=500')
 </p>
 
-You can create these tokens by navigating to your Profile. Once you have a
-token, provide it with every request in the "Authorization" header as
+You can create these tokens by navigating to Settings > API Tokens. Once you
+have a token, provide it with every request in the "Authorization" header as
 follows:
 
 ```bash

@@ -5,6 +5,7 @@ following endpoints are available:
 * [Search by query](#search-by-query)
 * [Upsert by email](#upsert-by-email)
 * [Update by ID](#update-by-id)
+* [Unsubscribe from lists by ID](#unsubscribe-from-lists-by-id)
 * [Add to lists](#add-to-lists)
 * [Delete by ID](#delete-by-id)
 * [Delete by email](#delete-by-email)
@@ -190,6 +191,30 @@ PATCH https://api.sendingbee.com/v1/contacts/<id>
 
 The HTTP status will be 200 on success, 4xx otherwise. The response body will
 be the same as in the [Get details](#get-details) case.
+
+### Unsubscribe from lists by ID
+
+?> The token needs to have the **MANAGE_CONTACTS** permission to perform this
+action. More details at [Authentication and
+Authorization](/api#authentication-and-authorization).
+
+The endpoint will remove the specified lists from a contact based on its **ID**.
+
+**Request**
+
+```
+POSST https://api.sendingbee.com/v1/contacts/<id>/unsubscribe_from_lists
+```
+
+```json
+{
+  "list_ids": ["5c640f190eac39900aa2c92d"]
+}
+```
+
+**Response**
+
+The HTTP status will be 200 on success, 4xx otherwise.
 
 ### Add to lists
 

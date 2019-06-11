@@ -26,3 +26,5 @@
     * [11.2 Contact](/api/contact.md)
     * [11.3 Campaigns](/api/campaigns.md)
     * [11.4 Lists](/api/lists.md)
+  * [12. Integrations](/integrations.md)
+    * [12.1 Zapier](/integrations/zapier.md)

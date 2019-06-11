@@ -39,5 +39,6 @@ these custom fields for search or updates ([more](/contacts.md))
 * Create Signup forms for onboarding new contacts ([more](/signup-forms.md))
 * Create multiple isolated projects within a single organization ([more](/organizations-and-projects.md))
 * Access every feature with API. The web interface is just one of its consumers ([more](/api.md))
+* Use SendingBee with other applications using [Zapier](https://zapier.com) ([more](/integrations.md))
 
 Are you missing a feature? We're more than happy to consider any suggestions. Please contact us at [support@sendingbee.com](mailto:support@sendingbee.com). Thank you!
