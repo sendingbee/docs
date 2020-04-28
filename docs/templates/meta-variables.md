@@ -85,4 +85,4 @@ the contact from the targeted lists.
 The `meta.company.name`, `meta.company.address`, and `meta.company.email`
 variables contain information about the current project.
 
-Continue to [Helpers](/templates/helpers.md).
+Continue to [Import](/templates/import.md).

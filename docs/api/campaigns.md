@@ -132,7 +132,6 @@ POST https://api.sendingbee.com/v1/campaigns
     "template": {
       "subject": "Welcome",
       "html": "...",
-      "text": "..."
     },
     "query": [
       {
@@ -147,10 +146,8 @@ POST https://api.sendingbee.com/v1/campaigns
 }
 ```
 
-- The **template** property contains the actual email content. **Subject** is
-always required. You can choose to provide **html** or/and **text** (at least
-one needs to be provided). If you don't provide a **text** version, it will
-be automatically created from the **html** one.
+- The **template** property contains the actual email content. The **text**
+  version will be automatically created from the **html** one.
 - The **query** property contains a query in the [Query
 language](/api/contacts/query-language) format.
 - The **send_at** property contains a time on which the campaign should be

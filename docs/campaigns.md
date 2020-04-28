@@ -44,11 +44,10 @@ template space. Each component can be further customized by clicking on it.
   ![campaigns4](../_assets/images/campaigns4.png ':size=400')
 </p>
 
-There are two variants to every email - its **HTML** and **text** versions.
-The WYSIWYG editor will automatically create the HTML version. There's no
-need to create the text version, SendingBee will automatically convert the
-HTML version into plain text. You can of course provide your own text version
-in which case it will be used instead.
+There are usually two variants to every email - its **HTML** and **text**
+versions.  The WYSIWYG editor will automatically create the HTML version.
+There's no need to create the text version, SendingBee will automatically
+convert the HTML version into plain text.
 
 <p class="centered">
   ![campaigns5](../_assets/images/campaigns5.png ':size=400')
